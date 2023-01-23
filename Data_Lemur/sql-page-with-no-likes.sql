@@ -1,4 +1,5 @@
 -- https://datalemur.com/questions/sql-page-with-no-likes
+
 SELECT p.page_id
 FROM pages AS p
 LEFT JOIN page_likes AS b
